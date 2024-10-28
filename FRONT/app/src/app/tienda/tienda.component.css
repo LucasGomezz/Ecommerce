@@ -1,0 +1,82 @@
+.carousel-container {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.productosEnOfertaContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+.productoEnOferta {
+  width: 100%;
+  height: auto;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px; 
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productoEnOferta{
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.productoEnOferta img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.carrousel-entero{
+    width: 50%;
+}
+.product-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.product-item img {
+max-width: 100%;
+border-radius: 5px;
+}
+
+.product-detail {
+text-align: center;
+margin-top: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top:2rem;
+}
+
+.carrouselPrincipal {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-ofertas {
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 25px;
+    width:70%;
+}

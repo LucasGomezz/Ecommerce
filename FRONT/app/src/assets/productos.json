@@ -1,0 +1,241 @@
+[
+    {
+        "id": 1,
+        "nombre": "Fall Guys",
+        "descripcion": "Juego de caida",
+        "genero": "Multiplayer",
+        "precio": 20,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BZmMwNWI5ZjMtMzY2YS00MDJhLWI1MjEtZTAwNzljMmNhMTA3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 2,
+        "nombre": "Fortnite",
+        "descripcion": "El ultimo gana",
+        "genero": "Battle Royale",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/009384c2725d335d3711b0d3c84672142fc93f72077e679e.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 3,
+        "nombre": "Valorant",
+        "descripcion": "Juego de tiros",
+        "genero": "Shooter",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNmNhM2NjMTgtNmIyZC00ZmVjLTk4YWItZmZjNGY2NThiNDhkXkEyXkFqcGdeQXVyODU4MDU1NjU@._V1_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-valorant-riotgames-g1a-02-1920x1080-580683fffe0f.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 4,
+        "nombre": "Fading Faith",
+        "descripcion": "Un oscuro rastreador de mazmorras medievales donde la luz es tu único escudo",
+        "genero": "Supervivencia",
+        "precio": 15,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BYWIzYjUzMGUtZjJlNy00MWVlLWJjNGEtODU1OWFiOWIwOTFjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "",
+        "clasificacion": 5
+    },
+    {
+        "id": 5,
+        "nombre": "Fading Faith 2",
+        "descripcion": "Un oscuro rastreador de mazmorras medievales donde la luz es tu único escudo",
+        "genero": "Supervivencia",
+        "precio": 15,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BYWIzYjUzMGUtZjJlNy00MWVlLWJjNGEtODU1OWFiOWIwOTFjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": ""
+    },
+    {
+        "id": 6,
+        "nombre": "Fading Faith 3",
+        "descripcion": "Un oscuro rastreador de mazmorras medievales donde la luz es tu único escudo",
+        "genero": "Supervivencia",
+        "precio": 15,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BYWIzYjUzMGUtZjJlNy00MWVlLWJjNGEtODU1OWFiOWIwOTFjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "",
+        "clasificacion": 5
+    },
+    {
+        "id": 7,
+        "nombre": "Valorant",
+        "descripcion": "Juego de tiros",
+        "genero": "Shooter",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNmNhM2NjMTgtNmIyZC00ZmVjLTk4YWItZmZjNGY2NThiNDhkXkEyXkFqcGdeQXVyODU4MDU1NjU@._V1_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-valorant-riotgames-g1a-02-1920x1080-580683fffe0f.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 8,
+        "nombre": "Valorant",
+        "descripcion": "Juego de tiros",
+        "genero": "Shooter",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNmNhM2NjMTgtNmIyZC00ZmVjLTk4YWItZmZjNGY2NThiNDhkXkEyXkFqcGdeQXVyODU4MDU1NjU@._V1_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-valorant-riotgames-g1a-02-1920x1080-580683fffe0f.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 9,
+        "nombre": "Valorant",
+        "descripcion": "Juego de tiros",
+        "genero": "Shooter",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNmNhM2NjMTgtNmIyZC00ZmVjLTk4YWItZmZjNGY2NThiNDhkXkEyXkFqcGdeQXVyODU4MDU1NjU@._V1_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-valorant-riotgames-g1a-02-1920x1080-580683fffe0f.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 10,
+        "nombre": "Valorant",
+        "descripcion": "Juego de tiros",
+        "genero": "Shooter",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNmNhM2NjMTgtNmIyZC00ZmVjLTk4YWItZmZjNGY2NThiNDhkXkEyXkFqcGdeQXVyODU4MDU1NjU@._V1_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-valorant-riotgames-g1a-02-1920x1080-580683fffe0f.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 24,
+        "nombre": "Valorant",
+        "descripcion": "Juego de tiros",
+        "genero": "Shooter",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNmNhM2NjMTgtNmIyZC00ZmVjLTk4YWItZmZjNGY2NThiNDhkXkEyXkFqcGdeQXVyODU4MDU1NjU@._V1_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-valorant-riotgames-g1a-02-1920x1080-580683fffe0f.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 11,
+        "nombre": "Fading Faith 3",
+        "descripcion": "Un oscuro rastreador de mazmorras medievales donde la luz es tu único escudo",
+        "genero": "Supervivencia",
+        "precio": 15,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BYWIzYjUzMGUtZjJlNy00MWVlLWJjNGEtODU1OWFiOWIwOTFjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "",
+        "clasificacion": 5
+    },
+    {
+        "id": 12,
+        "nombre": "Fading Faith 3",
+        "descripcion": "Un oscuro rastreador de mazmorras medievales donde la luz es tu único escudo",
+        "genero": "Supervivencia",
+        "precio": 15,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BYWIzYjUzMGUtZjJlNy00MWVlLWJjNGEtODU1OWFiOWIwOTFjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "",
+        "clasificacion": 5
+    },
+    {
+        "id": 23,
+        "nombre": "Fading Faith 3",
+        "descripcion": "Un oscuro rastreador de mazmorras medievales donde la luz es tu único escudo",
+        "genero": "Supervivencia",
+        "precio": 15,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BYWIzYjUzMGUtZjJlNy00MWVlLWJjNGEtODU1OWFiOWIwOTFjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "",
+        "clasificacion": 5
+    },
+    {
+        "id": 13,
+        "nombre": "Fall Guys",
+        "descripcion": "Juego de caida",
+        "genero": "Multiplayer",
+        "precio": 20,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BZmMwNWI5ZjMtMzY2YS00MDJhLWI1MjEtZTAwNzljMmNhMTA3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 14,
+        "nombre": "Fall Guys",
+        "descripcion": "Juego de caida",
+        "genero": "Multiplayer",
+        "precio": 20,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BZmMwNWI5ZjMtMzY2YS00MDJhLWI1MjEtZTAwNzljMmNhMTA3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 15,
+        "nombre": "Fall Guys",
+        "descripcion": "Juego de caida",
+        "genero": "Multiplayer",
+        "precio": 20,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BZmMwNWI5ZjMtMzY2YS00MDJhLWI1MjEtZTAwNzljMmNhMTA3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 16,
+        "nombre": "Fall Guys",
+        "descripcion": "Juego de caida",
+        "genero": "Multiplayer",
+        "precio": 20,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BZmMwNWI5ZjMtMzY2YS00MDJhLWI1MjEtZTAwNzljMmNhMTA3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 22,
+        "nombre": "Fall Guys",
+        "descripcion": "Juego de caida",
+        "genero": "Multiplayer",
+        "precio": 20,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BZmMwNWI5ZjMtMzY2YS00MDJhLWI1MjEtZTAwNzljMmNhMTA3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 17,
+        "nombre": "Fortnite",
+        "descripcion": "El ultimo gana",
+        "genero": "Battle Royale",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/009384c2725d335d3711b0d3c84672142fc93f72077e679e.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 18,
+        "nombre": "Fortnite",
+        "descripcion": "El ultimo gana",
+        "genero": "Battle Royale",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/009384c2725d335d3711b0d3c84672142fc93f72077e679e.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 19,
+        "nombre": "Fortnite",
+        "descripcion": "El ultimo gana",
+        "genero": "Battle Royale",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/009384c2725d335d3711b0d3c84672142fc93f72077e679e.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 20,
+        "nombre": "Fortnite",
+        "descripcion": "El ultimo gana",
+        "genero": "Battle Royale",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/009384c2725d335d3711b0d3c84672142fc93f72077e679e.jpg",
+        "clasificacion": 5
+    },
+    {
+        "id": 21,
+        "nombre": "Fortnite",
+        "descripcion": "El ultimo gana",
+        "genero": "Battle Royale",
+        "precio": 0,
+        "imagen": "https://m.media-amazon.com/images/M/MV5BNzU2YTY2OTgtZGZjZi00MTAyLThlYjUtMWM5ZmYzOGEyOWJhXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "imagenHorizontal": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/009384c2725d335d3711b0d3c84672142fc93f72077e679e.jpg",
+        "clasificacion": 5
+    }
+]

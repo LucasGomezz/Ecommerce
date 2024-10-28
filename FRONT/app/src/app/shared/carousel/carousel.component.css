@@ -1,0 +1,35 @@
+.carrousel-entero {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto; 
+    flex-direction: column;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-detail {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tituloGenero {
+    width:100%;
+    display:flex;
+    align-items: flex-start;
+}
+
+.contenedor-carousel {
+    max-width:100%;
+}

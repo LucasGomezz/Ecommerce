@@ -1,0 +1,23 @@
+<div class="container d-flex flex-column align-items-center">
+  <h2 class="m-2">CARRITO DE COMPRAS</h2>
+  <div *ngIf="cartProducts.length; else elseTemplate" class="d-flex">
+    <div class="d-flex flex-column overflow-auto products">
+      <ul *ngFor="let product of cartProducts">
+        <app-cart-product [product]="product"></app-cart-product>
+      </ul>
+    </div>
+    <div class="d-flex flex-column mb-4 mx-2">
+      <button (click)="buy()" class="btn btn-success m-2">Comprar</button>
+      <button (click)="clearCart()" class="btn btn-danger m-2">
+        Limpiar carrito
+      </button>
+      <b class="m-2">Total: $ {{ total }}</b>
+    </div>
+  </div>
+  <ng-template #elseTemplate>
+    <div class="mt-4">
+      <h1>EL CARRITO ESTÁ VACÍO!</h1>
+      <h2>Agregue un juego al carrito para comenzar la compra</h2>
+    </div>
+  </ng-template>
+</div>

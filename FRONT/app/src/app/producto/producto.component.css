@@ -1,0 +1,29 @@
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 3rem auto;
+}
+
+.product-image {
+  margin-right: 8rem;
+}
+
+.product-image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-info {
+  font-size: 1.2em;
+}
+
+h1 {
+  margin: 2rem 0rem;
+}
+
+.margin-from-button {
+  margin-bottom: 2.5rem;
+}

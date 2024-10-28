@@ -1,0 +1,43 @@
+<form [formGroup]="registroForm" class="my-2 mx-auto">
+  <img class="my-4 d-block mx-auto" src="assets/images/logo.png" width="80" height="80">
+  <h3 class="mb-3">Registrarse</h3>
+  <div class="form-group">
+    <label for="name">Nombre Completo</label>
+    <input formControlName="name" type="text" id="name" name="name" class="form-control" />
+  </div>
+  <div *ngIf="name.invalid && (name.dirty || name.touched)" class="text-danger">
+    <div *ngIf="name.errors?.['required']">Ingrese un nombre.</div>
+  </div>
+  <div class="form-group">
+    <label for="email">Correo electronico</label>
+    <input formControlName="email" type="email" id="email" name="email" class="form-control" />
+  </div>
+  <div *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+    <div *ngIf="email.errors?.['required']">Ingrese el email.</div>
+    <div *ngIf="email.errors?.['email']">El email ingresado es inválido.</div>
+  </div>
+  <div class="form-group">
+    <label for="password">Contraseña</label>
+    <input formControlName="password" type="password" id="password" name="password" class="form-control" />
+  </div>
+  <div *ngIf="password.invalid && (password.dirty || password.touched)" class="text-danger">
+    <div *ngIf="password.errors?.['required']">Ingrese la contraseña.</div>
+    <div *ngIf="password.errors?.['minlength']">La contraseña debe poseer al menos 6 caracteres.</div>
+  </div>
+  <div class="form-group">
+    <label for="repeatedPassword">Repetir Contraseña</label>
+    <input formControlName="repeatedPassword" type="password" id="repeatedPassword" name="repeatedPassword"
+      class="form-control" />
+  </div>
+  <div *ngIf="repeatedPassword.invalid && (repeatedPassword.dirty || repeatedPassword.touched)" class="text-danger">
+    <div *ngIf="repeatedPassword.errors?.['required']">Vuelva a ingresar la contraseña.</div>
+    <div *ngIf="repeatedPassword.errors?.['PasswordNoMatch']">Las contraseñas deben ser iguales.</div>
+  </div>
+  <button (click)="registro()" class="btn btn-lg btn-primary btn-block w-100 mt-4" type="submit">Registrarse</button>
+  <div *ngIf="formError" class="text-danger">
+    {{formError}}
+  </div>
+  <div *ngIf="registroError" class="text-danger">
+    {{registroError}}
+  </div>
+</form>

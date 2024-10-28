@@ -1,0 +1,22 @@
+<form [formGroup]="confirmEmailForm" class="my-2 mx-auto">
+    <img class="my-4 d-block mx-auto" src="assets/images/logo.png" width="80" height="80">
+    <h3 class="mb-3">Ingrese el código que le ha llegado a la casilla {{email}}</h3>
+    <div class="form-group">
+        <label for="code">Código</label>
+        <input formControlName="code" type="text" id="code" name="code" class="form-control" />
+    </div>
+    <div *ngIf="code.invalid && (code.dirty || code.touched)" class="text-danger">
+        <div *ngIf="code.errors?.['pattern']">El código debe ser numérico y de 6 caracteres.</div>
+        <div *ngIf="code.errors?.['required']">Ingrese el código.</div>
+    </div>
+    <button (click)="confirm()" class="btn btn-lg btn-primary btn-block w-100 mt-4" type="submit">Confirmar</button>
+    <div *ngIf="formError" class="text-danger">
+        {{formError}}
+    </div>
+    <div *ngIf="confirmEmailError" class="text-danger">
+        {{confirmEmailError}}
+    </div>
+    <div *ngIf="emailConfirmed" class="text-success">
+        {{emailConfirmed}}
+    </div>
+</form>

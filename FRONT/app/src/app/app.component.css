@@ -1,0 +1,12 @@
+app-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

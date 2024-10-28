@@ -1,0 +1,27 @@
+<div class="carrousel-entero">
+  <div class="tituloGenero">
+    <h1 *ngIf="genero">{{ genero }}</h1>
+  </div>
+  <div class="contenedor-carousel">
+    <p *ngIf="userLogged">El usuario está logeado.</p>
+    <p-carousel [value]="filteredProducts" 
+      [numVisible]="numVisible"  
+      [numScroll]="1" 
+      [circular]="true" 
+      [responsiveOptions]="responsiveOptions" 
+      autoplayInterval="3000">
+      <ng-template pTemplate="item" let-product>
+        <div class="product-item">
+          <div class="product-item-content">
+            <a [routerLink]="['/producto', product.id]">
+              <img src="{{product.imagen}}" alt="{{product.nombre}}">
+            </a>
+            <div class="product-detail">
+              <h4>{{product.nombre}}</h4>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>

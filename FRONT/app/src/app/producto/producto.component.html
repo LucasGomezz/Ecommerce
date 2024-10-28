@@ -1,0 +1,22 @@
+<div *ngIf="product" class="product-container">
+  <div class="product-image">
+    <img [src]="product.imagen" [alt]="product.nombre" />
+  </div>
+  <div class="product-info">
+    <h1>{{ product.nombre }}</h1>
+    <p>{{ product.descripcion }}</p>
+    <p>Genero: {{ product.genero }}</p>
+    <p>Clasificacion: {{ product.clasificacion }}/10</p>
+    <p class="margin-from-button">Precio: ${{ product.precio }}</p>
+    <div *ngIf="!isInCart; else elseTemplate">
+      <button (click)="addToCart(product)" class="btn btn-primary">
+        Agregar al carrito
+      </button>
+    </div>
+    <ng-template #elseTemplate>
+      <button (click)="deleteFromCart(product.id)" class="btn btn-danger">
+        Eliminar del carrito
+      </button>
+    </ng-template>
+  </div>
+</div>

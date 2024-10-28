@@ -1,0 +1,33 @@
+<form [formGroup]="loginForm" class="form-signin my-2 mx-auto">
+  <img class="my-4 d-block mx-auto" src="assets/images/logo.png" width="80" height="80">
+  <h3 class="mb-3">Iniciar Sesion</h3>
+  <div class="form-group">
+    <label for="inputEmail">Email</label>
+    <input formControlName="email" type="email" id="inputEmail" class="form-control" placeholder="Email" required=""
+      autofocus="">
+  </div>
+  <div *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+    <div *ngIf="email.errors?.['required']">Ingrese el email.</div>
+    <div *ngIf="email.errors?.['email']">El email ingresado es inválido.</div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword">Contraseña</label>
+    <input formControlName="password" minlength="6" type="password" id="inputPassword" class="form-control"
+      placeholder="Contraseña" required="">
+  </div>
+  <div *ngIf="password.invalid && (password.dirty || password.touched)" class="text-danger">
+    <div *ngIf="password.errors?.['required']">Ingrese la contraseña.</div>
+    <div *ngIf="password.errors?.['minlength']">La contraseña debe poseer al menos 6 caracteres.</div>
+  </div>
+  <a [routerLink]="['/recuperar-contrasenia']">Olvide mi contraseña</a>
+  <button (click)="login()" class="btn btn-lg btn-primary btn-block w-100 mt-4" type="submit">Iniciar Sesion</button>
+
+  <a class="btn btn-lg btn-outline-warning btn-block w-100 mt-2" [routerLink]="['/registro']"
+    type="submit">Registrarme</a>
+  <div *ngIf="formError" class="text-danger">
+    {{formError}}
+  </div>
+  <div *ngIf="loginError" class="text-danger">
+    {{loginError}}
+  </div>
+</form>

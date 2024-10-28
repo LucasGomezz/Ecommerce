@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" [routerLinkActive]="['active']" aria-current="page" [routerLink]="['/tienda']">
+            Home
+          </a>
+        </li>
+        <li *ngIf="!userLoggedIn, else elseTemplate" class="nav-item">
+          <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/login']">Iniciar Sesion
+          </a>
+        </li>
+        <ng-template #elseTemplate>
+          <div style="position: relative;">
+            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">{{userName}}</a>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" aria-current="page" [routerLink]="['/cambiar-contrasenia']"
+                  [routerLinkActive]="['active']" href="#">Cambiar
+                  contraseña</button></li>
+              <li><button class="dropdown-item" (click)="logout()" href="#">Cerrar Sesion</button></li>
+            </ul>
+          </div>
+        </ng-template>
+      </ul>
+      <a [routerLinkActive]="['active']" [routerLink]="['/carrito']" class="cart-link mytooltip">
+        <span class="tooltiptext">Ver carrito</span>
+        <h1 class="bi bi-cart4 cart"></h1>
+        <span *ngIf="itemsInCart" class="products-count">
+          {{ itemsInCart }}
+        </span>
+      </a>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,29 @@
+<div class="productosEnOfertaContainer">
+  <div>
+    <h1 class="title ofertas-title">Ofertas</h1>
+  </div>
+  <div class="contenedor contenedor-ofertas">
+    <div *ngFor="let product of productosEnOferta" class="productoEnOferta">
+       <a [routerLink]="['/producto', product.id]">
+              <img src="{{product.imagenHorizontal}}" alt="{{product.nombre}}">
+            </a>
+      <h2 class="product-nombre">{{ product.nombre }}</h2>
+      <p class="product-precio">$: {{ product.precio }}</p>
+      <p class="product-precio">{{ product.clasificacion }}/10</p>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h1 class="title">Populares</h1>
+</div>
+<app-carousel [products]="products" [userLogged]="userLogged" ></app-carousel>
+
+<div *ngFor="let genero of generos">
+  <app-carousel
+    [products]="products"
+    [userLogged]="userLogged"
+    [genero]="genero.genero"
+  ></app-carousel>
+</div>
+

@@ -1,0 +1,16 @@
+<div *ngIf="product" class="d-flex justify-content-between product">
+  <div class="d-flex">
+    <a [routerLink]="['/producto', product.id]">
+      <img [src]="product.imagen" [alt]="product.nombre" />
+    </a>
+    <div class="my-2">
+      <h3>{{ product.nombre }}</h3>
+      <p>{{ product.descripcion }}</p>
+      <p>{{ product.genero }}</p>
+      <b>Precio: $ {{ product.precio }}</b>
+    </div>
+  </div>
+  <button class="btn btn-danger" (click)="deleteProduct(product.id)">
+    <span class="bi bi-trash"></span>
+  </button>
+</div>
